@@ -8,26 +8,19 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/text_buscaSim"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textDado"
+        android:layout_width="167dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="297dp"
         android:fontFamily="casual"
-        android:text="BuscaSim"
+        android:shadowColor="#818181"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:text="TextView"
+        android:textAlignment="center"
         android:textSize="34sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button_iniciar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="77dp"
-        android:text="Começar"
-        app:layout_constraintStart_toStartOf="@+id/text_buscaSim"
-        app:layout_constraintTop_toBottomOf="@+id/text_buscaSim" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
