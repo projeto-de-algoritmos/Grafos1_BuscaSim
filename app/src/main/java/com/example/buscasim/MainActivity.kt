@@ -1,79 +1,79 @@
 package com.example.buscasim
 
-import android.graphics.Matrix
-import androidx.appcompat.app.AppCompatActivity
+import android.content.pm.ActivityInfo
+import android.os.Build
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import com.example.buscasim.databinding.ActivityMainBinding
+import com.example.buscasim.databinding.TelaInicioBinding
+import java.util.LinkedList
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
-
-    data class Vertices(val no: Int,var visitado: Boolean, var vizinho: Vertices? = null)
+    private lateinit var binding: TelaInicioBinding
+    private lateinit var binding2: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            window?.statusBarColor = ContextCompat.getColor(this, R.color.black)
+        }
+
+        binding = TelaInicioBinding.inflate(layoutInflater)
+        binding2 = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val grafo = arrayOfNulls<Vertices>(7)
+        val g = Graph(15)
 
-        grafo[0] = Vertices(1, false, null)
-        insere(grafo[0], 2, false)
-        insere(grafo[0], 5, false)
-        insere(grafo[0], 7, false)
+        g.addEdge(0, 1)
+        g.addEdge(0, 4)
+        g.addEdge(1, 2)
+        g.addEdge(1, 3)
+        g.addEdge(1, 4)
+        g.addEdge(2, 3)
+        g.addEdge(3, 4)
 
-        grafo[1] = Vertices(2, false, null)
-        insere (grafo[1], 1, false)
-        insere (grafo[1], 7, false)
+        println("Breadth-First Search:")
+        g.BFS(0)
 
-        grafo[2] = Vertices(3, false, null)
-        insere (grafo[2], 4, false)
+        binding.buttonComecar.setOnClickListener {
+            setContentView(binding2.root)
+        }
+    }
+}
 
-        grafo[3] = Vertices(4, false, null)
-        insere (grafo[3], 3, false)
-        insere (grafo[3], 6, false)
-        insere (grafo[3], 7, false)
+class Graph(private val numVertices: Int) {
+    private val adjLists: Array<LinkedList<Int>>
 
-        grafo[4] = Vertices(5, false, null)
-        insere (grafo[4], 1, false)
+    init {
+        adjLists = Array(numVertices) {
+            LinkedList<Int>()
+        }
+    }
 
-        grafo[5] = Vertices(6, false, null)
-        insere (grafo[5], 4, false)
+    fun addEdge(src: Int, dest: Int) {
+        adjLists[src].add(dest)
+    }
 
-        grafo[6] = Vertices(7, false, null)
-        insere (grafo[6], 1, false)
-        insere (grafo[6], 2, false)
-        insere (grafo[6], 4, false)
+    fun BFS(startVertex: Int) {
+        val visited = BooleanArray(numVertices)
+        val queue = LinkedList<Int>()
 
-        binding.textDado.text = grafo[1]?.no.toString()
+        visited[startVertex] = true
+        queue.add(startVertex)
 
-        val fila = ArrayList<Int>()
-        for (i in 1..7) {
-            if (grafo[i]?.visitado == false) {
-                grafo[i]?.let { fila.add(it.no) }
-                grafo[i]?.visitado = true
+        while (queue.isNotEmpty()) {
+            val vertex = queue.poll()
+            print("$vertex ")
 
-                while (fila != null) {
-                    val u = fila[0]
-                    fila.removeAt(0)
-
-                    for (vertice in grafo) {
-                        if (grafo[u-1]?.visitado == false) {
-                            //marcar a aresta
-                            grafo[u-1]?.visitado = true
-                            fila.removeAt(0)
-                        }
-                    }
+            for (i in adjLists[vertex]) {
+                if (!visited[i]) {
+                    queue.add(i)
+                    visited[i] = true
                 }
             }
         }
-    }
-    fun insere(vertice: Vertices?, numero: Int, visitado: Boolean): Boolean {
-        val novoNo = Vertices(numero, visitado, vertice?.vizinho)
-
-        vertice?.vizinho = novoNo
-
-        return true
     }
 }
