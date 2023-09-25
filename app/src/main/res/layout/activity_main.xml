@@ -8,71 +8,9 @@
     tools:context=".MainActivity">
 
     <View
-        android:id="@+id/aresta_09"
-        android:layout_width="62sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="54"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="205dp" />
-
-    <View
-        android:id="@+id/aresta_013"
-        android:layout_width="47sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="-67"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="298dp" />
-
-    <View
-        android:id="@+id/aresta_314"
-        android:layout_width="65sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="54"
-        app:layout_constraintBottom_toTopOf="@+id/button_14"
-        app:layout_constraintEnd_toStartOf="@+id/button_14"
-        app:layout_constraintStart_toEndOf="@+id/button_3"
-        app:layout_constraintTop_toBottomOf="@+id/button_3" />
-
-    <View
-        android:id="@+id/aresta_313"
-        android:layout_width="47sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="25"
-        app:layout_constraintBottom_toBottomOf="@+id/button_13"
-        app:layout_constraintEnd_toStartOf="@+id/button_3"
-        app:layout_constraintStart_toEndOf="@+id/button_13"
-        app:layout_constraintTop_toTopOf="@+id/button_3" />
-
-    <View
-        android:id="@+id/aresta_36"
-        android:layout_width="54sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="-35"
-        app:layout_constraintBottom_toTopOf="@+id/button_6"
-        app:layout_constraintEnd_toStartOf="@+id/button_3"
-        app:layout_constraintStart_toEndOf="@+id/button_6"
-        app:layout_constraintTop_toBottomOf="@+id/button_3" />
-
-    <View
-        android:id="@+id/aresta_46"
-        android:layout_width="58sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="-38"
-        app:layout_constraintBottom_toTopOf="@+id/button_4"
-        app:layout_constraintEnd_toStartOf="@+id/button_6"
-        app:layout_constraintStart_toEndOf="@+id/button_4"
-        app:layout_constraintTop_toBottomOf="@+id/button_6" />
-
-    <View
         android:id="@+id/aresta1_fila"
-        android:layout_width="300sp"
-        android:layout_height="3sp"
+        android:layout_width="300dp"
+        android:layout_height="3dp"
         android:layout_marginStart="58dp"
         android:background="#6F67BA"
         android:rotation="0"
@@ -81,212 +19,64 @@
 
     <View
         android:id="@+id/aresta2_fila"
-        android:layout_width="300sp"
-        android:layout_height="3sp"
+        android:layout_width="300dp"
+        android:layout_height="3dp"
         android:layout_marginStart="19dp"
-        android:layout_marginBottom="19dp"
+        android:layout_marginBottom="16dp"
         android:background="#6F67BA"
         android:rotation="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView_filaS" />
 
-    <View
-        android:id="@+id/aresta_611"
-        android:layout_width="58sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="41"
-        app:layout_constraintBottom_toTopOf="@+id/button_6"
-        app:layout_constraintEnd_toStartOf="@+id/button_6"
-        app:layout_constraintStart_toEndOf="@+id/button_11"
-        app:layout_constraintTop_toBottomOf="@+id/button_11" />
-
-    <View
-        android:id="@+id/aresta_411"
-        android:layout_width="88sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="-90"
-        app:layout_constraintBottom_toTopOf="@+id/button_4"
-        app:layout_constraintEnd_toEndOf="@+id/button_11"
-        app:layout_constraintStart_toStartOf="@+id/button_4"
-        app:layout_constraintTop_toBottomOf="@+id/button_11" />
-
-    <View
-        android:id="@+id/aresta_19"
-        android:layout_width="72sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="2"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="161dp" />
-
-    <View
-        android:id="@+id/aresta_17"
-        android:layout_width="42sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="-61"
-        app:layout_constraintBottom_toTopOf="@+id/button_1"
-        app:layout_constraintEnd_toStartOf="@+id/button_7"
-        app:layout_constraintStart_toEndOf="@+id/button_1"
-        app:layout_constraintTop_toBottomOf="@+id/button_7" />
-
-    <View
-        android:id="@+id/aresta_18"
-        android:layout_width="146sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="58"
-        app:layout_constraintEnd_toStartOf="@+id/button_8"
-        app:layout_constraintStart_toEndOf="@+id/button_1"
-        tools:layout_editor_absoluteY="251dp" />
-
-    <View
-        android:id="@+id/aresta_58"
-        android:layout_width="89sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="90"
-        app:layout_constraintBottom_toTopOf="@+id/button_8"
-        app:layout_constraintEnd_toEndOf="@+id/button_8"
-        app:layout_constraintStart_toStartOf="@+id/button_5"
-        app:layout_constraintTop_toBottomOf="@+id/button_5" />
-
-    <View
-        android:id="@+id/aresta_813"
-        android:layout_width="50sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="18"
-        tools:layout_editor_absoluteX="288dp"
-        tools:layout_editor_absoluteY="314dp" />
-
-    <View
-        android:id="@+id/aresta_38"
-        android:layout_width="76sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="-25"
-        app:layout_constraintEnd_toStartOf="@+id/button_8"
-        app:layout_constraintStart_toEndOf="@+id/button_3"
-        tools:layout_editor_absoluteY="362dp" />
-
-    <View
-        android:id="@+id/aresta_814"
-        android:layout_width="100sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="-71"
-        app:layout_constraintBottom_toTopOf="@+id/button_14"
-        app:layout_constraintEnd_toEndOf="@+id/button_8"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toStartOf="@+id/button_14"
-        app:layout_constraintTop_toBottomOf="@+id/button_8"
-        app:layout_constraintVertical_bias="0.49" />
-
-    <View
-        android:id="@+id/aresta_910"
-        android:layout_width="50sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="45"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="123dp" />
-
-    <View
-        android:id="@+id/aresta_29"
-        android:layout_width="75sp"
-        android:layout_height="3sp"
-        android:background="#6F67BA"
-        android:rotation="-61"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="208dp" />
-
     <Button
-        android:id="@+id/button_4"
+        android:id="@+id/button_3"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="55dp"
         android:layout_height="55dp"
-        android:layout_marginStart="37dp"
-        android:layout_marginBottom="140dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="408dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="4"
-        android:textAlignment="center"
-        android:textColor="#6F67BA"
-        app:layout_constraintBottom_toTopOf="@+id/aresta1_fila"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button_5"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="25dp"
-        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="5"
-        android:textAlignment="center"
-        android:textColor="#6F67BA"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_7" />
-
-    <Button
-        android:id="@+id/button_6"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="14dp"
-        android:layout_marginEnd="66dp"
-        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="6"
-        android:textAlignment="center"
-        android:textColor="#6F67BA"
-        app:layout_constraintEnd_toStartOf="@+id/aresta_314"
-        app:layout_constraintStart_toEndOf="@+id/aresta_411"
-        tools:layout_editor_absoluteY="412dp" />
-
-    <Button
-        android:id="@+id/button_7"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="73dp"
-        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="7"
-        android:textAlignment="center"
-        android:textColor="#6F67BA"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_instrucao" />
-
-    <Button
-        android:id="@+id/button_8"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_marginEnd="25dp"
-        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="8"
-        android:textAlignment="center"
-        android:textColor="#6F67BA"
-        app:layout_constraintBottom_toTopOf="@+id/button_14"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_5" />
-
-    <Button
-        android:id="@+id/button_9"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="105dp"
-        android:layout_marginTop="8dp"
-        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="9"
+        android:text="3"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/aresta_910" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_58"
+        android:layout_width="87dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="320dp"
+        android:background="#6F67BA"
+        android:rotation="90"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_14"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="508dp"
+        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
+        android:text="14"
+        android:textAlignment="center"
+        android:textColor="#6F67BA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_46"
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="528dp"
+        android:background="#6F67BA"
+        android:rotation="-38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_10"
@@ -294,9 +84,314 @@
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="120dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
         android:text="10"
+        android:textAlignment="center"
+        android:textColor="#6F67BA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_910"
+        android:layout_width="50dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="176dp"
+        android:background="#6F67BA"
+        android:rotation="45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_611"
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="460dp"
+        android:background="#6F67BA"
+        android:rotation="41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_013"
+        android:layout_width="47dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="349dp"
+        android:background="#6F67BA"
+        android:rotation="-67"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_314"
+        android:layout_width="67dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="482dp"
+        android:background="#6F67BA"
+        android:rotation="54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_813"
+        android:layout_width="51dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="367dp"
+        android:background="#6F67BA"
+        android:rotation="18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_36"
+        android:layout_width="54dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="462dp"
+        android:background="#6F67BA"
+        android:rotation="-35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_18"
+        android:layout_width="148dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="302dp"
+        android:background="#6F67BA"
+        android:rotation="58"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_38"
+        android:layout_width="76dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="261dp"
+        android:layout_marginTop="412dp"
+        android:background="#6F67BA"
+        android:rotation="-25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_09"
+        android:layout_width="62dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="256dp"
+        android:background="#6F67BA"
+        android:rotation="54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_4"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="536dp"
+        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
+        android:text="4"
+        android:textAlignment="center"
+        android:textColor="#6F67BA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_1"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="192dp"
+        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="#6F67BA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_0"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="280dp"
+        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#6F67BA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="288dp"
+        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
+        android:text="2"
+        android:textAlignment="center"
+        android:textColor="#6F67BA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_7"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="120dp"
+        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
+        android:text="7"
+        android:textAlignment="center"
+        android:textColor="#6F67BA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_6"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="468dp"
+        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
+        android:text="6"
+        android:textAlignment="center"
+        android:textColor="#6F67BA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_411"
+        android:layout_width="86dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="493dp"
+        android:background="#6F67BA"
+        android:rotation="-90"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_8"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="364dp"
+        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
+        android:text="8"
+        android:textAlignment="center"
+        android:textColor="#6F67BA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_19"
+        android:layout_width="72dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="212dp"
+        android:background="#6F67BA"
+        android:rotation="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_29"
+        android:layout_width="75dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="260dp"
+        android:background="#6F67BA"
+        android:rotation="-61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_814"
+        android:layout_width="102dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="464dp"
+        android:background="#6F67BA"
+        android:rotation="-71"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_12"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="324dp"
+        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
+        android:text="12"
+        android:textAlignment="center"
+        android:textColor="#6F67BA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_313"
+        android:layout_width="46dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="412dp"
+        android:background="#6F67BA"
+        android:rotation="25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_13"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="368dp"
+        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
+        android:text="13"
+        android:textAlignment="center"
+        android:textColor="#6F67BA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/aresta_17"
+        android:layout_width="42dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="261dp"
+        android:layout_marginTop="181dp"
+        android:background="#6F67BA"
+        android:rotation="-61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_9"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="184dp"
+        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
+        android:text="9"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
@@ -307,116 +402,34 @@
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="55dp"
         android:layout_height="55dp"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="55dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="400dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
         android:text="11"
         android:textAlignment="center"
         android:textColor="#6F67BA"
-        app:layout_constraintBottom_toTopOf="@+id/aresta_611"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_2" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_12"
+        android:id="@+id/button_5"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="224dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="12"
-        android:textAlignment="center"
-        android:textColor="#6F67BA"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.66"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="273dp" />
-
-    <Button
-        android:id="@+id/button_13"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="13"
-        android:textAlignment="center"
-        android:textColor="#6F67BA"
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="317dp" />
-
-    <Button
-        android:id="@+id/button_14"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_marginEnd="73dp"
-        android:layout_marginBottom="169dp"
-        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="14"
-        android:textAlignment="center"
-        android:textColor="#6F67BA"
-        app:layout_constraintBottom_toTopOf="@+id/aresta1_fila"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/button_3"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="26dp"
-        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="3"
-        android:textAlignment="center"
-        android:textColor="#6F67BA"
-        app:layout_constraintTop_toBottomOf="@+id/button_12"
-        tools:layout_editor_absoluteX="215dp" />
-
-    <Button
-        android:id="@+id/button_2"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="25dp"
-        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="2"
+        android:text="5"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/aresta_29" />
-
-    <Button
-        android:id="@+id/button_1"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="54dp"
-        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="1"
-        android:textAlignment="center"
-        android:textColor="#6F67BA"
-        app:layout_constraintBottom_toTopOf="@+id/aresta_18"
-        app:layout_constraintEnd_toStartOf="@+id/button_5" />
-
-    <Button
-        android:id="@+id/button_0"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="20dp"
-        android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="0"
-        android:textAlignment="center"
-        android:textColor="#6F67BA"
-        app:layout_constraintStart_toEndOf="@+id/button_2"
-        app:layout_constraintTop_toBottomOf="@+id/aresta_09" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView_instrucao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="125dp"
         android:fontFamily="@font/andika_new_basic"
@@ -427,6 +440,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -449,9 +463,9 @@
         android:layout_width="300sp"
         android:layout_height="wrap_content"
         android:layout_marginStart="19dp"
-        android:layout_marginBottom="19dp"
+        android:layout_marginBottom="16dp"
         android:fontFamily="@font/andika_new_basic"
-        android:textAlignment="center"
+        android:textAlignment="viewStart"
         android:textAllCaps="false"
         android:textColor="#6F67BA"
         android:textSize="20sp"
