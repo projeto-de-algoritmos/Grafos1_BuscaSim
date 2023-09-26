@@ -36,7 +36,6 @@
         android:layout_marginStart="212dp"
         android:layout_marginTop="408dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="3"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,6 +49,7 @@
         android:layout_marginTop="320dp"
         android:background="#6F67BA"
         android:rotation="90"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -61,7 +61,6 @@
         android:layout_marginStart="276dp"
         android:layout_marginTop="508dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="14"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
@@ -75,6 +74,7 @@
         android:layout_marginTop="528dp"
         android:background="#6F67BA"
         android:rotation="-38"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -86,7 +86,6 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="120dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="10"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
@@ -100,6 +99,7 @@
         android:layout_marginTop="176dp"
         android:background="#6F67BA"
         android:rotation="45"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -111,6 +111,7 @@
         android:layout_marginTop="460dp"
         android:background="#6F67BA"
         android:rotation="41"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -122,6 +123,7 @@
         android:layout_marginTop="349dp"
         android:background="#6F67BA"
         android:rotation="-67"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -133,17 +135,19 @@
         android:layout_marginTop="482dp"
         android:background="#6F67BA"
         android:rotation="54"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
-        android:id="@+id/aresta_813"
+        android:id="@+id/aresta_812"
         android:layout_width="51dp"
         android:layout_height="3dp"
         android:layout_marginStart="288dp"
         android:layout_marginTop="367dp"
         android:background="#6F67BA"
         android:rotation="18"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -155,6 +159,7 @@
         android:layout_marginTop="462dp"
         android:background="#6F67BA"
         android:rotation="-35"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -166,6 +171,7 @@
         android:layout_marginTop="302dp"
         android:background="#6F67BA"
         android:rotation="58"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -177,6 +183,7 @@
         android:layout_marginTop="412dp"
         android:background="#6F67BA"
         android:rotation="-25"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -188,6 +195,7 @@
         android:layout_marginTop="256dp"
         android:background="#6F67BA"
         android:rotation="54"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -199,7 +207,6 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="536dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="4"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
@@ -213,7 +220,6 @@
         android:layout_marginStart="228dp"
         android:layout_marginTop="192dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="1"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
@@ -227,7 +233,6 @@
         android:layout_marginStart="160dp"
         android:layout_marginTop="280dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="0"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
@@ -241,7 +246,6 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="288dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="2"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
@@ -255,7 +259,6 @@
         android:layout_marginStart="284dp"
         android:layout_marginTop="120dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="7"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
@@ -269,7 +272,6 @@
         android:layout_marginStart="124dp"
         android:layout_marginTop="468dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="6"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
@@ -283,6 +285,7 @@
         android:layout_marginTop="493dp"
         android:background="#6F67BA"
         android:rotation="-90"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -294,7 +297,6 @@
         android:layout_marginStart="332dp"
         android:layout_marginTop="364dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="8"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
@@ -308,6 +310,7 @@
         android:layout_marginTop="212dp"
         android:background="#6F67BA"
         android:rotation="2"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -319,6 +322,7 @@
         android:layout_marginTop="260dp"
         android:background="#6F67BA"
         android:rotation="-61"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -330,6 +334,7 @@
         android:layout_marginTop="464dp"
         android:background="#6F67BA"
         android:rotation="-71"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -341,7 +346,6 @@
         android:layout_marginStart="236dp"
         android:layout_marginTop="324dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="12"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
@@ -355,6 +359,7 @@
         android:layout_marginTop="412dp"
         android:background="#6F67BA"
         android:rotation="25"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -366,7 +371,6 @@
         android:layout_marginStart="124dp"
         android:layout_marginTop="368dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="13"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
@@ -380,6 +384,7 @@
         android:layout_marginTop="181dp"
         android:background="#6F67BA"
         android:rotation="-61"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -391,7 +396,6 @@
         android:layout_marginStart="104dp"
         android:layout_marginTop="184dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="9"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
@@ -405,7 +409,6 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="400dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="11"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
@@ -419,7 +422,6 @@
         android:layout_marginStart="332dp"
         android:layout_marginTop="224dp"
         android:foreground="@drawable/_13_sem_t_tulo_20230923122817"
-        android:text="5"
         android:textAlignment="center"
         android:textColor="#6F67BA"
         app:layout_constraintStart_toStartOf="parent"
@@ -471,4 +473,81 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView_filaS" />
+
+    <Button
+        android:id="@+id/button_info"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:foreground="@drawable/_13_sem_t_tulo_20230925160527"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_voltar"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:foreground="@drawable/_13_sem_t_tulo_20230925164311"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C0000000"
+        android:visibility="invisible"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_fecharInfo"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:foreground="@drawable/_13_sem_t_tulo_20230925230401" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika_new_basic"
+                android:text="A busca em largura (BFS, ou Breadth-First Search), é um algorítmo de busca ordenada.  A travessia do grafo pela BFS é feita em camadas, o que significa dizer que primeiro ela visita todos os vizinhos do primeiro nó (também chamado de vértice), para depois visitar os vizinhos dos vizinhos e assim por diante. Para isso, ela utliza uma fila, logo os primeiros vértices a entrarem serão os primeiros a saírem. O pseudo-código da BFS é o seguinte:"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika_new_basic"
+                android:text="BFS (G):\n&quot;Para&quot; cada cada vértice s de G\n    enfileire(S,s)\n    marque o vértice s como visitado\n\n    &quot;Enquanto&quot; S não estiver vazio\n        u recebe desenfileira(S)\n\n        &quot;Para&quot; cada v em Adj[u]\n            &quot;Se&quot; v está inexplorado\n                marque a aresta(v,u) como utilizada\n                marque o vértice v como visitado\n                enfileire(S,v)"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/andika_new_basic"
+                android:text="Note que cada vértice e acessado no máximo uma vez, portanto a complexidade da BFS é O(m+n), onde n é o número de vértices e m, o número de arestas. Neste pseudo-código, Ajd[u] é a lista de vértices adjacentes (vizinhos) de u, u = desenfeleira(S) remove o primeiro elemento de S e salva em u e enfileira(S,v) adiciona o nó v na fila S."
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
